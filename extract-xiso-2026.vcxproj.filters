@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="extract-xiso.cpp" />
+    <ClCompile Include="win32\asprintf.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\dirent.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\getopt.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{eebcc921-d088-469b-873a-3f1b3d826e69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
