@@ -14,6 +14,8 @@ where needed to fix some crash issues with using the -c switch with certain extr
 
 **List of changes**
 
+
+
 Reworked AVL code using std::map
 Added std::filesystem  
 Added RAII file-descriptor ownership via unique_fd  
@@ -28,6 +30,8 @@ Changed the banner target to win64.
 Removed obsolete #if 0 blocks.  
 Fixed a Win64-unsafe integer-to-pointer callback cast.  
 Retained only non-platform #if DEBUG guards.  
+
+
 
 
 
