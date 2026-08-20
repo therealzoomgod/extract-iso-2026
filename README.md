@@ -14,7 +14,8 @@ where needed to fix some crash issues with using the -c switch with certain extr
 
 **List of changes**
 
-Reworked AVL code using std::map* Added std::filesystem  
+Reworked AVL code using std::map
+Added std::filesystem  
 Added RAII file-descriptor ownership via unique_fd  
 Added explicit int64_t Xbox offsets and image-bound checks.  
 Replaced getopt parsing with a std::string_view C++17 parser.  
